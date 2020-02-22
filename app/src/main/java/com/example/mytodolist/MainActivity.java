@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     Button btnadd;
+    Button btnDoctor;
     EditText etItem;
     RecyclerView rvItems;
     ItemsAdapter itemsAdapter;
@@ -32,9 +33,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);// This is where I changed from activity main
 
         btnadd = findViewById (R.id.btnadd);
+        btnDoctor = findViewById(R.id.btnDoctor);
         etItem = findViewById(R.id.etItem);
         rvItems = findViewById(R.id.rvItems);
 
@@ -44,11 +46,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemLongClicked(int position) {
                 //Delete the item from the model
-                items.remove(position);
-                //Notify the adapter
-                itemsAdapter.notifyItemRemoved(position);
-                Toast.makeText(getApplicationContext(), "Item was removed", Toast.LENGTH_SHORT).show();
-                saveItems();
+//                items.remove(position);
+//                //Notify the adapter
+//                itemsAdapter.notifyItemRemoved(position);
+//                Toast.makeText(getApplicationContext(), "Item was removed", Toast.LENGTH_SHORT).show();
+//                saveItems();
+                //setContentView(R.layout.activity_login);// This  worked to take users to the other screen.
             }
         };
 
@@ -59,14 +62,32 @@ public class MainActivity extends AppCompatActivity {
         btnadd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               String todoItem = etItem.getText().toString();
-               //Add item to the model
-                items.add (todoItem);
-                //Notify adapter that an item is inserted
-                itemsAdapter.notifyItemInserted(items.size()-1);
-                etItem.setText("");
-                Toast.makeText(getApplicationContext(),"Item was added", Toast.LENGTH_SHORT).show();
-                saveItems();
+//               String todoItem = etItem.getText().toString();
+//               //Add item to the model
+//                items.add (todoItem);
+//                //Notify adapter that an item is inserted
+//                itemsAdapter.notifyItemInserted(items.size()-1);
+//                etItem.setText("");
+//                Toast.makeText(getApplicationContext(),"Item was added", Toast.LENGTH_SHORT).show();
+//                saveItems();
+                setContentView(R.layout.activity_login);
+
+            }
+        });
+
+        btnDoctor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//               String todoItem = etItem.getText().toString();
+//               //Add item to the model
+//                items.add (todoItem);
+//                //Notify adapter that an item is inserted
+//                itemsAdapter.notifyItemInserted(items.size()-1);
+//                etItem.setText("");
+//                Toast.makeText(getApplicationContext(),"Item was added", Toast.LENGTH_SHORT).show();
+//                saveItems();
+                setContentView(R.layout.activity_login);
+
             }
         });
 

@@ -13,9 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp"
-        android:text="Add" />
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="164dp"
+        android:text="User" />
 
     <EditText
         android:id="@+id/etItem"
@@ -30,12 +30,35 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvItems"
-        android:layout_width="match_parent"
-        android:layout_height="917dp"
+        android:layout_width="113dp"
+        android:layout_height="0dp"
         android:layout_above="@+id/etItem"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="-2dp" />
+        android:layout_centerInParent="true"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="394dp" />
+
+    <TextView
+        android:id="@+id/logscreen"
+        android:layout_width="190dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:text="I am Signing in As"
+        android:textSize="24sp"
+        tools:text="I am Signing in as a" />
+
+    <Button
+        android:id="@+id/btnDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="164dp"
+        android:text="Doctor" />
 </RelativeLayout>
