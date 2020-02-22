@@ -7,17 +7,17 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnadd2"
+        android:id="@+id/btnadd"
         android:layout_width="258dp"
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="131dp"
         android:layout_marginBottom="579dp"
-        android:text="Dr. Name1" />
+        android:text="@string/dr_name1" />
 
     <Button
-        android:id="@+id/btnadd"
+        android:id="@+id/btnadd1"
         android:layout_width="258dp"
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
@@ -27,7 +27,7 @@
         android:text="Dr. Name2" />
 
     <Button
-        android:id="@+id/btnadd3"
+        android:id="@+id/btnadd2"
         android:layout_width="258dp"
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
@@ -37,7 +37,7 @@
         android:text="Dr. Name3" />
 
     <Button
-        android:id="@+id/btnadd4"
+        android:id="@+id/btnadd3"
         android:layout_width="258dp"
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
@@ -47,7 +47,7 @@
         android:text="Dr. Name3" />
 
     <Button
-        android:id="@+id/btnadd5"
+        android:id="@+id/btnadd4"
         android:layout_width="258dp"
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
@@ -57,7 +57,7 @@
         android:text="Dr. Name3" />
 
     <Button
-        android:id="@+id/btnadd6"
+        android:id="@+id/btnadd5"
         android:layout_width="258dp"
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
@@ -67,6 +67,7 @@
         android:text="Dr. Name3" />
 
     <TextView
+        android:id="@+id/doctorList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
