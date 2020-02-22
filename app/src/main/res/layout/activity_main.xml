@@ -1,59 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/etItem2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/btnadd2"
+        android:layout_width="258dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="539dp"
-        android:layout_toStartOf="@+id/btnadd"
-        android:ems="10"
-        android:hint="Add an item here!" />
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="579dp"
+        android:text="Dr. Name1" />
 
     <Button
         android:id="@+id/btnadd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="258dp"
+        android:layout_height="59dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="540dp"
-        android:text="Add" />
+        android:layout_marginEnd="131"
+        android:layout_marginBottom="505dp"
+        android:text="Dr. Name2" />
 
     <Button
-        android:id="@+id/btnadd2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btnadd3"
+        android:layout_width="258dp"
+        android:layout_height="59dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="601dp"
-        android:text="Add" />
+        android:layout_marginEnd="131"
+        android:layout_marginBottom="431"
+        android:text="Dr. Name3" />
 
-    <EditText
-        android:id="@+id/etItem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/btnadd4"
+        android:layout_width="258dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="94dp"
-        android:layout_marginBottom="603dp"
-        android:layout_toStartOf="@+id/btnadd"
-        android:ems="10"
-        android:hint="Add an item here!" />
+        android:layout_marginEnd="131"
+        android:layout_marginBottom="357"
+        android:text="Dr. Name3" />
+
+    <Button
+        android:id="@+id/btnadd5"
+        android:layout_width="258dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="131"
+        android:layout_marginBottom="283"
+        android:text="Dr. Name3" />
+
+    <Button
+        android:id="@+id/btnadd6"
+        android:layout_width="258dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="209"
+        android:text="Dr. Name3" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:text="List of Doctors"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
