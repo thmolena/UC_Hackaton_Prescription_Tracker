@@ -1,82 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnadd"
-        android:layout_width="258dp"
-        android:layout_height="59dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="579dp"
-        android:text="@string/dr_name1" />
-
-    <Button
-        android:id="@+id/btnadd1"
-        android:layout_width="258dp"
-        android:layout_height="59dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="505dp"
-        android:text="Dr. Name2" />
-
-    <Button
-        android:id="@+id/btnadd2"
-        android:layout_width="258dp"
-        android:layout_height="59dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="431dp"
-        android:text="Dr. Name3" />
-
-    <Button
-        android:id="@+id/btnadd3"
-        android:layout_width="258dp"
-        android:layout_height="59dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="357dp"
-        android:text="Dr. Name4" />
-
-    <Button
-        android:id="@+id/btnadd4"
-        android:layout_width="258dp"
-        android:layout_height="59dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="283dp"
-        android:text="Dr. Name5" />
-
-    <Button
-        android:id="@+id/btnadd5"
-        android:layout_width="258dp"
-        android:layout_height="59dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="209dp"
-        android:text="Dr. Name6" />
-
-    <TextView
-        android:id="@+id/doctorList"
+        android:id="@+id/bt_launch_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="20dp"
-        android:text="List of Doctors"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#3F74B5"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
+        android:text="Launch Profile Activity"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button.Colored"/>
 </RelativeLayout>
