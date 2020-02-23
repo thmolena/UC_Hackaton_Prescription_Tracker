@@ -5,6 +5,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.Toast;
 
 import org.apache.commons.io.FileUtils;
@@ -12,6 +14,7 @@ import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.text.BreakIterator;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,11 +24,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class MainActivity extends AppCompatActivity {
 
+   public static BreakIterator medicine;
     List<String> items;
    Button btnenter;
+   Button button2;
 
 
     ItemsAdapter itemsAdapter;
+
+    SearchView SearchDrugs;
+    ListView DrugList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);// This is where I changed from activity main
 
         btnenter = findViewById (R.id.btnenter);
+        button2 = findViewById(R.id.button2);
 
 
 
@@ -68,6 +77,22 @@ public class MainActivity extends AppCompatActivity {
 //                Toast.makeText(getApplicationContext(),"Item was added", Toast.LENGTH_SHORT).show();
 //                saveItems();
                 setContentView(R.layout.activity_users);
+
+
+            }
+        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//               String todoItem = etItem.getText().toString();
+//               //Add item to the model
+//                items.add (todoItem);
+//                //Notify adapter that an item is inserted
+//                itemsAdapter.notifyItemInserted(items.size()-1);
+//                etItem.setText("");
+//                Toast.makeText(getApplicationContext(),"Item was added", Toast.LENGTH_SHORT).show();
+//                saveItems();
+                setContentView(R.layout.doctorpagesearch);
 
 
             }
