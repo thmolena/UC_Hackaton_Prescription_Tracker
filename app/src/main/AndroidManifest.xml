@@ -17,5 +17,6 @@
         </activity>
 
         <activity android:name=".DoctorPageSearch"></activity>
+        <activity android:name=".Confirm"></activity>
     </application>
 </manifest>

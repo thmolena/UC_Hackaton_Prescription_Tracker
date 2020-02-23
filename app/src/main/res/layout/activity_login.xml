@@ -107,5 +107,5 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="104dp"
         android:layout_marginBottom="298dp"
-        android:text="PASS" />
+        android:text="CONFIRM" />
 </RelativeLayout>
