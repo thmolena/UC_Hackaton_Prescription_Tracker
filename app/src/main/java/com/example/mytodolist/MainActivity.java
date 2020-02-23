@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SearchView;
+
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.apache.commons.io.FileUtils;
@@ -26,9 +28,15 @@ public class MainActivity extends AppCompatActivity {
     List<String> items;
 
 
+    TextView doctorList;
     Button btnadd;
-    EditText etItem;
-    RecyclerView rvItems;
+    Button btnadd1;
+    Button btnadd2;
+    Button btnadd3;
+    Button btnadd4;
+
+/*    EditText etItem;
+    RecyclerView rvItems;*/
     ItemsAdapter itemsAdapter;
 
     SearchView SearchDrugs;
@@ -39,9 +47,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        doctorList = findViewById(R.id.doctorList);
         btnadd = findViewById (R.id.btnadd);
-        etItem = findViewById(R.id.etItem);
-        rvItems = findViewById(R.id.rvItems);
+        btnadd1 = findViewById(R.id.btnadd1);
+        btnadd2 = findViewById(R.id.btnadd2);
+        btnadd3 = findViewById(R.id.btnadd3);
+        btnadd4 = findViewById(R.id.btnadd4);
+
+
+
+/*        etItem = findViewById(R.id.etItem);
+        rvItems = findViewById(R.id.rvItems);*/
 
         loadItems();
 
@@ -58,20 +74,23 @@ public class MainActivity extends AppCompatActivity {
         };
 
         itemsAdapter  = new ItemsAdapter(items, onLongClickListener);
-        rvItems.setAdapter(itemsAdapter);
-        rvItems.setLayoutManager(new LinearLayoutManager(this));
+/*        rvItems.setAdapter(itemsAdapter);
+        rvItems.setLayoutManager(new LinearLayoutManager(this));*/
 
         btnadd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               String todoItem = etItem.getText().toString();
+/*               String todoItem = etItem.getText().toString();*/
                //Add item to the model
-                items.add (todoItem);
-                //Notify adapter that an item is inserted
-                itemsAdapter.notifyItemInserted(items.size()-1);
-                etItem.setText("");
+//                items.add (todoItem);
+//                //Notify adapter that an item is inserted
+//                itemsAdapter.notifyItemInserted(items.size()-1);
+/*                etItem.setText("");
                 Toast.makeText(getApplicationContext(),"Item was added", Toast.LENGTH_SHORT).show();
-                saveItems();
+                saveItems();*/
+
+
+
             }
         });
 
