@@ -22,7 +22,7 @@
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131"
+        android:layout_marginEnd="131dp"
         android:layout_marginBottom="505dp"
         android:text="Dr. Name2" />
 
@@ -32,8 +32,8 @@
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131"
-        android:layout_marginBottom="431"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="431dp"
         android:text="Dr. Name3" />
 
     <Button
@@ -42,9 +42,9 @@
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131"
-        android:layout_marginBottom="357"
-        android:text="Dr. Name3" />
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="357dp"
+        android:text="Dr. Name4" />
 
     <Button
         android:id="@+id/btnadd4"
@@ -52,9 +52,9 @@
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131"
-        android:layout_marginBottom="283"
-        android:text="Dr. Name3" />
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="283dp"
+        android:text="Dr. Name5" />
 
     <Button
         android:id="@+id/btnadd5"
@@ -63,8 +63,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="131dp"
-        android:layout_marginBottom="209"
-        android:text="Dr. Name3" />
+        android:layout_marginBottom="209dp"
+        android:text="Dr. Name6" />
 
     <TextView
         android:id="@+id/doctorList"
