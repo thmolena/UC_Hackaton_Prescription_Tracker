@@ -42,10 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnenter = findViewById (R.id.btnenter);
         button2 = findViewById(R.id.button2);
-
-
-
-
+        DrugList = findViewById(R.id.druglist);
         loadItems();
 
         final ItemsAdapter.OnLongClickListener onLongClickListener = new ItemsAdapter.OnLongClickListener() {
