@@ -26,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
    public static BreakIterator medicine;
     List<String> items;
-   Button btnenter;
-   Button button2;
+
 
 
     ItemsAdapter itemsAdapter;
@@ -40,8 +39,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);// This is where I changed from activity main
 
-        btnenter = findViewById (R.id.btnenter);
-        button2 = findViewById(R.id.button2);
         DrugList = findViewById(R.id.druglist);
         loadItems();
 
@@ -62,38 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        btnenter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//               String todoItem = etItem.getText().toString();
-//               //Add item to the model
-//                items.add (todoItem);
-//                //Notify adapter that an item is inserted
-//                itemsAdapter.notifyItemInserted(items.size()-1);
-//                etItem.setText("");
-//                Toast.makeText(getApplicationContext(),"Item was added", Toast.LENGTH_SHORT).show();
-//                saveItems();
-                setContentView(R.layout.activity_users);
 
-
-            }
-        });
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//               String todoItem = etItem.getText().toString();
-//               //Add item to the model
-//                items.add (todoItem);
-//                //Notify adapter that an item is inserted
-//                itemsAdapter.notifyItemInserted(items.size()-1);
-//                etItem.setText("");
-//                Toast.makeText(getApplicationContext(),"Item was added", Toast.LENGTH_SHORT).show();
-//                saveItems();
-                setContentView(R.layout.doctorpagesearch);
-
-
-            }
-        });
 
 
 
