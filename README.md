@@ -37,7 +37,10 @@ I made an error with the capitalization when I wrote ItemAdapter so it took me a
 
 ## License
 
-    Copyright [2020] [Immanuela Belaineh]
+    Copyright [2020] [ Thy H. Nguyen
+    Liberty Mupotsa
+    Sama Manalai
+    Immanuela Belaineh]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
