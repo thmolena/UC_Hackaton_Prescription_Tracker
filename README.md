@@ -1,22 +1,25 @@
 # Project 1 - *Prescription Tracker*
 
-Name of your app is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+Inspiration Prescription Tracker:
+In a lot of places around the world, doctors use paper to write prescriptions for patients. We thought about what we can do to make this easier so we decided to build software we would make open source.
 
-## User Stories
+What it does Prescription Tracker?
+It creates an interface for the doctor and another interface for the user. Both login using the same application with an option for the doctor to log in as a doctor and the patient as a patient on the startup page.
 
-The following required functionality is completed:
+How we built it Prescription Tracker:
+We built this app using android studio. We created sample API data to be displayed when a user searches. We wanted to create a search functionality from the API data but we didn’t have enough time so we focused on other parts of the project.
 
-* [x] User can view a list of todo items
-* [x] User can successfully add and remove items from the todo list
-* [x] User's list of items persisted upon modification and and retrieved properly on app restart
+Challenges we ran into Prescription Tracker
+We were working on different branches so when it came time to merge we had to look through our codes again and debug. That took us the most time. We also wanted to add more functionality to our app but we realized that we couldn’t finish in time if we added those. The other challenge was going from one activity to another in android app. It took a long time to figure out how to navigate from the second activity to the third activity.
 
-The following optional features are implemented:
+Accomplishments that we're proud of Prescription Tracker
+We are proud of our idea and how much we were able to understand and implement in a short time give. We are also proud of starting this project because we intend to finish it when we get back to campus.
 
-* [ ] User can tap a todo item in the list and bring up an edit screen for the todo item and then have any changes to the text reflected in the todo list
+What we learned Prescription Tracker
+We learned how to use the android studio. We learned how to build an app. We learned how to use an API in our code. We learned more about the android studio debugging tools.
 
-The following additional features are implemented:
-
-* [ ] List anything else that you can get done to improve the app functionality!
+What's next for Prescription Tracker
+We want to add a Barcode scanner, search functionality from an FDA API data (), and dispense our software open-source for doctors and patients to download and use it as they like. We would also like to add a functionality where patients press on medicine and can see the side effects and uses.
 
 ## Video Walkthrough
 
