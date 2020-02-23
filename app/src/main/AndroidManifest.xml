@@ -20,4 +20,3 @@
         <activity android:name=".Confirm"></activity>
     </application>
 </manifest>
-a
