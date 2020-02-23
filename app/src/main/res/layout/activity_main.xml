@@ -7,20 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnadd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="164dp"
-        android:text="User" />
-
     <EditText
         android:id="@+id/etItem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
@@ -28,37 +18,51 @@
         android:ems="10"
         android:hint="Add an item here!" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvItems"
-        android:layout_width="113dp"
-        android:layout_height="0dp"
-        android:layout_above="@+id/etItem"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="292dp"
-        android:layout_marginEnd="216dp"
-        android:layout_marginBottom="394dp" />
-
-    <TextView
-        android:id="@+id/logscreen"
-        android:layout_width="190dp"
-        android:layout_height="56dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="40dp"
-        android:text="I am Signing in As"
-        android:textSize="24sp"
-        tools:text="I am Signing in as a" />
-
-    <Button
-        android:id="@+id/btnDoctor"
+    <EditText
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:ems="10"
+        android:hint="enter email address"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="17dp"
+        android:text="LOGIN"
+        android:textSize="24sp"
+        tools:text="LOGIN" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="Password" />
+
+    <Button
+        android:id="@+id/btnenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="13dp"
-        android:layout_marginBottom="164dp"
-        android:text="Doctor" />
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="52dp"
+        android:text="Enter" />
+
 </RelativeLayout>

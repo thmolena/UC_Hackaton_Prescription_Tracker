@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My To Do List</string>
+    <string name="app_name">Prescription Tracker</string>
     <string name="button">Button</string>
     <string name="title_activity_login">Sign in</string>
     <string name="prompt_email">Email</string>

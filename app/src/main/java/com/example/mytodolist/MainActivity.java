@@ -22,13 +22,9 @@ import androidx.recyclerview.widget.RecyclerView;
 public class MainActivity extends AppCompatActivity {
 
     List<String> items;
+   Button btnenter;
 
 
-    Button btnadd;
-    Button btnDoctor;
-    Button login;
-    EditText etItem;
-    RecyclerView rvItems;
     ItemsAdapter itemsAdapter;
 
     @Override
@@ -36,10 +32,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);// This is where I changed from activity main
 
-        btnadd = findViewById (R.id.btnadd);
-        btnDoctor = findViewById(R.id.btnDoctor);
-        etItem = findViewById(R.id.etItem);
-        rvItems = findViewById(R.id.rvItems);
+        btnenter = findViewById (R.id.btnenter);
+
+
 
 
         loadItems();
@@ -58,10 +53,10 @@ public class MainActivity extends AppCompatActivity {
         };
 
         itemsAdapter  = new ItemsAdapter(items, onLongClickListener);
-        rvItems.setAdapter(itemsAdapter);
-        rvItems.setLayoutManager(new LinearLayoutManager(this));
 
-        btnadd.setOnClickListener(new View.OnClickListener() {
+
+
+        btnenter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 //               String todoItem = etItem.getText().toString();
@@ -72,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 //                etItem.setText("");
 //                Toast.makeText(getApplicationContext(),"Item was added", Toast.LENGTH_SHORT).show();
 //                saveItems();
-                setContentView(R.layout.activity_sample_login);
+                setContentView(R.layout.activity_users);
 
 
             }

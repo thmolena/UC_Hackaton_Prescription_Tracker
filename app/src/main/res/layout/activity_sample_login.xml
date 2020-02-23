@@ -13,8 +13,9 @@
         android:layout_height="112dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="94dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="33dp"
+        android:onClick="activity3"
         android:text="btnpass" />
 
     <EditText
