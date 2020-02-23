@@ -2,10 +2,6 @@
 
 Name of your app is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
-Submitted by: Immanuela Belaineh
-
-Time spent: 5 hours spent in total
-
 ## User Stories
 
 The following required functionality is completed:
@@ -26,7 +22,7 @@ The following additional features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Prescription_Tracker.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
