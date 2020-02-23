@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Relative_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etItem2"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_below="@+id/doctorSignature"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="416dp"
+        android:layout_toStartOf="@+id/btnadd"
+        android:ems="10"
+        android:hint="Sign Here" />
+
+    <TextView
+        android:id="@+id/doctorSignature"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Side_Effects"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="91dp"
+        android:text="Authorize Prescription" />
+
+    <ImageView
+        android:id="@+id/pills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
+
+    <TextView
+        android:id="@+id/med_Name"
+        android:layout_width="273dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/addBtn"
+        android:layout_toEndOf="@+id/pills"
+        tools:text="Medicine Name" />
+
+    <TextView
+        android:id="@+id/Side_Effects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/med_Name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="2dp"
+        android:textSize="10sp"
+        tools:text="Side Effects include" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="87dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-3dp"
+        android:text="Add" />
+</RelativeLayout>
