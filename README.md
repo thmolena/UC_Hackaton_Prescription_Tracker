@@ -1,4 +1,4 @@
-# Project 1 - *Prescription Tracker*
+# Project - *Prescription Tracker*
 
 Inspiration Prescription Tracker:
 In a lot of places around the world, doctors use paper to write prescriptions for patients. We thought about what we can do to make this easier so we decided to build software we would make open source.
@@ -37,7 +37,7 @@ I made an error with the capitalization when I wrote ItemAdapter so it took me a
 
 ## License
 
-    Copyright [2020] [ Thy H. Nguyen
+    Copyright [2020] [ Thy H. Nguyen - LEADER
     Liberty Mupotsa
     Sama Manalai
     Immanuela Belaineh]
