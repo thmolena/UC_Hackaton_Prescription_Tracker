@@ -1,6 +1,7 @@
 # Project - *Prescription Tracker*
 
 This is an app created in a 24-hour RevolutionUC Hackathon.
+
 Official Link: https://devpost.com/software/prescription-tracker-tql95o
 
 Inspiration Prescription Tracker:
