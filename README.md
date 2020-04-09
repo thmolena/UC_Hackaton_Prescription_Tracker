@@ -1,5 +1,8 @@
 # Project - *Prescription Tracker*
 
+This is an app created in a 24-hour RevolutionUC Hackathon.
+Official Link: https://devpost.com/software/prescription-tracker-tql95o
+
 Inspiration Prescription Tracker:
 In a lot of places around the world, doctors use paper to write prescriptions for patients. We thought about what we can do to make this easier so we decided to build software we would make open source.
 
@@ -32,8 +35,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 #### Describe any challenges encountered while building the app.
-
-I made an error with the capitalization when I wrote ItemAdapter so it took me a while to figure it our. 
+Time constraint 
 
 ## License
 
