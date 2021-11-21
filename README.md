@@ -45,7 +45,7 @@ Time constraint
 
 ## License
 
-    Copyright [2020] [ Thy H. Nguyen - LEADER
+    Copyright [2020] [ # T. H. Molena - LEADER
     Liberty Mupotsa
     Sama Manalai
     Immanuela Belaineh]
